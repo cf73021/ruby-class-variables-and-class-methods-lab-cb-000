@@ -10,7 +10,7 @@ class Song
     @genre = genre
     @@count +=1
     @@artist << artist
-    binding.binding.pry
+    binding.pry
   end
 
   def self.count
